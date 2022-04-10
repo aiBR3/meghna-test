@@ -9,7 +9,7 @@
 			<div class="col-xl-12">
 				{{"<!-- section title -->" | safeHTML}}
 				<div class="title text-center">
-					<h2>Portfolio 2</h2>
+					<h2>Portfolio alt</h2>
 					<div class="border-meghna"></div>
 				</div>
 				{{"<!-- /section title -->" | safeHTML}}
@@ -40,7 +40,7 @@
 		<div class="row shuffle-wrapper justify-content-center">
 			{{"<!-- portfolio item -->" | safeHTML}}
 			{{ range .portfolio_item }}
-			<div class="col-lg-4 col-md-6 shuffle-item"
+			<div class="col-xl-2 col-lg-3 col-md-6 shuffle-item"
 				data-groups="[{{range $index, $element:= .categories }}{{if ne $index 0}},{{end}}&quot;{{. | urlize}}&quot;{{ end }}]">
 				<div class="portfolio-block mb-4">
 					<img class="img-fluid" src="{{ .image_webp | absURL }}" onerror="this.onerror=null;this.src='{{ .image | absURL }}'" alt="{{ .name }}">
