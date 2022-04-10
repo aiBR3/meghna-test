@@ -1,76 +1,859 @@
 #################################### portfolio ###############################
 portfolio:
   enable : true
-  title : Our Works
+  title : Portfolio
   portfolio_item :
     # portfolio item loop
-    - name : Tag Design
-      image : images/portfolio/portfolio-1.jpg
-      image_webp : images/portfolio/portfolio-1.webp
-      categories : ["design"]
-      content : Lorem ipsum dolor sit amet consectetur adipisicing elit.
-      link : "https://themefisher.com"
-      
+    - name : Sovicille, le meraviglie
+      image : images/portfolio/2022-03_sovicillemeraviglie.jpg
+      image_webp :
+      categories : [ "Promo", "Toscana" ]
+      content : Pro Loco di Sovicille, 2022/03
+      link : "portfolio/2022-03_sovicillemeraviglie"
+
     # portfolio item loop
-    - name : Sound system
-      image : images/portfolio/portfolio-2.jpg
-      image_webp : images/portfolio/portfolio-2.webp
-      categories : ["development"]
-      content : Lorem ipsum dolor sit amet consectetur adipisicing elit.
-      link : ""
-      
+    - name : I Figli del Fuoco
+      image : images/portfolio/2021-10_ifiglidelfuoco.jpg
+      image_webp :
+      categories : [ "Documentari", "Toscana" ]
+      content : Comune di Abbadia San Salvatore, 2021/10
+      link : "portfolio/2021-10_ifiglidelfuoco"
+
     # portfolio item loop
-    - name : Clock Product
-      image : images/portfolio/portfolio-3.jpg
-      image_webp : images/portfolio/portfolio-3.webp
-      categories : ["design", "development"]
-      content : Lorem ipsum dolor sit amet consectetur adipisicing elit.
-      link : "#"
-      
+    - name : Bright-Night Siena
+      image : images/portfolio/2021-10_brightnightsiena.jpg
+      image_webp :
+      categories : [ "Eventi" ]
+      content : Università di Siena, 2021/10
+      link : "portfolio/2021-10_brightnightsiena"
+
+##    # portfolio item loop
+##    - name : Ambulanza equina
+##      image : images/portfolio/2021-10_ambulanzaequina.jpg
+##      image_webp :
+##      categories : [ "Istituzionale", "Palio" ]
+##      content : Comune di Siena, 2021/10
+##      link : "portfolio/2021-10_ambulanzaequina"
+
     # portfolio item loop
-    - name : Bottol Label
-      image : images/portfolio/portfolio-4.jpg
-      image_webp : images/portfolio/portfolio-4.webp
-      categories : ["photography", "development"]
-      content : Lorem ipsum dolor sit amet consectetur adipisicing elit.
-      link : "#"
-      
+    - name : Judo
+      image : images/portfolio/2021-09_judo.jpg
+      image_webp :
+      categories : [ "Promo" ]
+      content : CUS Siena, 2021/09
+      link : "portfolio/2021-09_judo"
+
+##    # portfolio item loop
+##    - name : Evasione
+##      image : images/portfolio/2021-09_evasione.jpg
+##      image_webp :
+##      categories : [ "Istituzionali", "Promo" ]
+##      content : Safety and Privacy, 2021/09
+##      link : "portfolio/2021-09_evasione"
+
     # portfolio item loop
-    - name : Shopping Bag
-      image : images/portfolio/portfolio-5.jpg
-      image_webp : images/portfolio/portfolio-5.webp
-      categories : ["design"]
-      content : Lorem ipsum dolor sit amet consectetur adipisicing elit.
-      link : "#"
-      
+    - name : Tempio del Brunello
+      image : images/portfolio/2021-07_tempiodelbrunello.jpg
+      image_webp :
+      categories : [ "Promo", "Toscana" ]
+      content : Opera Laboratori Fiorentini, 2021/07
+      link : "portfolio/2021-07_tempiodelbrunello"
+
+##    # portfolio item loop
+##    - name : 60 anni insieme, Valtiberino
+##      image : images/portfolio/2021-07_60anniinsimevaltiberino.jpg
+##      image_webp :
+##      categories : [ "Istituzionali", "Toscana" ]
+##      content : Etruria Retail, 2021/07
+##      link : "portfolio/2021-07_60anniinsimevaltiberino"
+
     # portfolio item loop
-    - name : Tag Design
-      image : images/portfolio/portfolio-6.jpg
-      image_webp : images/portfolio/portfolio-6.webp
-      categories : ["photography"]
-      content : Lorem ipsum dolor sit amet consectetur adipisicing elit.
-      link : "#"
-      
+    - name : 60 anni insieme, Farchioni
+      image : images/portfolio/2021-07_60anniinsimefarchioni.jpg
+      image_webp :
+      categories : [ "Istituzionali", "Toscana" ]
+      content : Etruria Retail, 2021/07
+      link : "portfolio/2021-07_60anniinsimefarchioni"
+
     # portfolio item loop
-    - name : Business Card
-      image : images/portfolio/portfolio-7.jpg
-      image_webp : images/portfolio/portfolio-7.webp
-      categories : ["development"]
-      content : Lorem ipsum dolor sit amet consectetur adipisicing elit.
-      link : "#"
-      
+    - name : Come Dante ci pare
+      image : images/portfolio/2021-07_comedantecipare.jpg
+      image_webp :
+      categories : [ "Documentari", "Toscana" ]
+      content : Lo Stanzone delle Apparizioni, 2021/07
+      link : "portfolio/2021-07_comedantecipare"
+
     # portfolio item loop
-    - name : Stationary Design
-      image : images/portfolio/portfolio-8.jpg
-      image_webp : images/portfolio/portfolio-8.webp
-      categories : ["design", "development"]
-      content : Lorem ipsum dolor sit amet consectetur adipisicing elit.
-      link : "#"
-      
+    - name : Più informati, più sicuri
+      image : images/portfolio/2021-07_piuinformatipusicuri.jpg
+      image_webp :
+      categories : [ "Promo" ]
+      content : Comune di Pisa, 2021/07
+      link : "portfolio/2021-07_piuinformatipusicuri"
+
     # portfolio item loop
-    - name : Tag Design
-      image : images/portfolio/portfolio-2.jpg
-      image_webp : images/portfolio/portfolio-2.webp
-      categories : ["design", "photography"]
-      content : Lorem ipsum dolor sit amet consectetur adipisicing elit.
-      link : "#"
+    - name : Maremma
+      image : images/portfolio/2021-06_maremma.jpg
+      image_webp :
+      categories : [ "Documentari", "Toscana" ]
+      content : Polo Culturale Pietro Aldi, 2021/06
+      link : "portfolio/2021-06_maremma"
+
+    # portfolio item loop
+    - name : 60 anni insieme, Chef Baracchi
+      image : images/portfolio/2021-06_60anniinsimechefbaracchi.jpg
+      image_webp :
+      categories : [ "Istituzionali", "Toscana" ]
+      content : Etruria Retail, 2021/06
+      link : "portfolio/2021-06_60anniinsimechefbaracchi"
+
+    # portfolio item loop
+    - name : Dipartimento di Scienze Politiche e Internazionali
+      image : images/portfolio/2021-05_dispi.jpg
+      image_webp :
+      categories : [ "Istituzionali" ]
+      content : Università di Siena, 2021/05
+      link : "portfolio/2021-05_dispi"
+
+    # portfolio item loop
+    - name : Uffizi, riapertura
+      image : images/portfolio/2021-05_uffiziriapertura.jpg
+      image_webp :
+      categories : [ "Documentari", "Musica" ]
+      content : Opera Laboratori Fiorentini, 2021/05
+      link : "portfolio/2021-05_uffiziriapertura"
+
+    # portfolio item loop
+    - name : Il paese senza errori
+      image : images/portfolio/2021-04_ilpaesesenzaerrori.jpg
+      image_webp :
+      categories : [ "Documentari", "Musica" ]
+      content : Lo Stanzone delle Apparizioni, 2021/04
+      link : "portfolio/2021-04_ilpaesesenzaerrori"
+
+    # portfolio item loop
+    - name : Santa Chiara Lab
+      image : images/portfolio/2021-02_santachiaralab.jpg
+      image_webp :
+      categories : [ "Istituzionali" ]
+      content : Università di Siena, 2021/02
+      link : "portfolio/2021-02_santachiaralab"
+
+    # portfolio item loop
+    - name : La valigia delle favole
+      image : images/portfolio/2020-12_lavaligiadellefavole.jpg
+      image_webp :
+      categories : [ "Edutainment" ]
+      content : Lo Stanzone delle Apparizioni, 2020/12
+      link : "portfolio/2020-12_lavaligiadellefavole"
+
+##    # portfolio item loop
+##    - name : Parco Minerario di Abbadia San Salvatore
+##      image : images/portfolio/2020-12_parcominerario.jpg
+##      image_webp :
+##      categories : [ "Documentari", "Toscana" ]
+##      content : Cliente?, 2020/12
+##      link : "portfolio/2020-12_parcominerario"
+
+    # portfolio item loop
+    - name : Duo Vertigo
+      image : images/portfolio/2020-08_duovertigo.jpg
+      image_webp :
+      categories : [ "Promo", "Musica" ]
+      content : Duo Vertigo, 2020/08
+      link : "portfolio/2020-08_duovertigo"
+
+    # portfolio item loop
+    - name : Libreria Piccolomini
+      image : images/portfolio/2020-07_libreriapiccolomini.jpg
+      image_webp :
+      categories : [ "Promo" ]
+      content : Opera Laboratori Fiorentini, 2020/07
+      link : "portfolio/2020-07_libreriapiccolomini"
+
+    # portfolio item loop
+    - name : Il sogno di Lady Florence Phillips
+      image : images/portfolio/2020-07_ilsognodiladyflorencephillips.jpg
+      image_webp :
+      categories : [ "Promo" ]
+      content : Opera Laboratori Fiorentini, 2020/07
+      link : "portfolio/2020-07_ilsognodiladyflorencephillips"
+
+    # portfolio item loop
+    - name : Come in cielo così in terra
+      image : images/portfolio/2020-07_comeincielocosiinterra.jpg
+      image_webp :
+      categories : [ "Promo" ]
+      content : Opera Laboratori Fiorentini, 2020/07
+      link : "portfolio/2020-07_comeincielocosiinterra"
+
+    # portfolio item loop
+    - name : La sospensione di un attimo
+      image : images/portfolio/2020-07_lasospensionediunattimo.jpg
+      image_webp :
+      categories : [ "Cortometraggi", "Palio" ]
+      content : CTPS e Comitato Amici del Palio, 2020/07
+      link : "portfolio/2020-07_lasospensionediunattimo"
+
+    # portfolio item loop
+    - name : Un cammino sicuro
+      image : images/portfolio/2020-06_uncamminosicuro.jpg
+      image_webp :
+      categories : [ "Promo" ]
+      content : Opera Laboratori Fiorentini, 2020/06
+      link : "portfolio/2020-06_uncamminosicuro"
+
+##    # portfolio item loop
+##    - name : Content'oh
+##      image : images/portfolio/2020-04_contentoh.jpg
+##      image_webp :
+##      categories : [ "Promo" ]
+##      content : Content'oh, 2020/04
+##      link : "portfolio/2020-04_contentoh"
+
+    # portfolio item loop
+    - name : Carrefour
+      image : images/portfolio/2020-03_carrefour.jpg
+      image_webp :
+      categories : [ "Promo" ]
+      content : Etruria Retail, 2020/03
+      link : "portfolio/2020-03_carrefour"
+
+##    # portfolio item loop
+##    - name : Come in cielo così in terra
+##      image : images/portfolio/2020-03_comeincielocosiinterra.jpg
+##      image_webp :
+##      categories : [ "Promo" ]
+##      content : Opera Laboratori Fiorentini, 2020/03
+##      link : "portfolio/2020-03_comeincielocosiinterra"
+
+    # portfolio item loop
+    - name : Brunello, Gineprone e Nastagio
+      image : images/portfolio/2020-03_brunelloginepronenastagio.jpg
+      image_webp :
+      categories : [ "Promo", "Toscana" ]
+      content : Col d'Orcia, 2020/03
+      link : "portfolio/2020-03_brunelloginepronenastagio"
+
+    # portfolio item loop
+    - name : Showreel per Giango
+      image : images/portfolio/2020-03_showreelpergiango.jpg
+      image_webp :
+      categories : [ "Istituzionali" ]
+      content : Giango, 2020/03
+      link : "portfolio/2020-03_showreelpergiango"
+
+    # portfolio item loop
+    - name : Siena riparte
+      image : images/portfolio/2020-03_sienariparte.jpg
+      image_webp :
+      categories : [ "Promo" ]
+      content : Comune di Siena, 2020/03
+      link : "portfolio/2020-03_sienariparte"
+
+    # portfolio item loop
+    - name : Siena Capitale dello Sport 2021
+      image : images/portfolio/2020-03_sienacapitaledellosport2021.jpg
+      image_webp :
+      categories : [ "Promo" ]
+      content : Comune di Siena, 2020/03
+      link : "portfolio/2020-03_sienacapitaledellosport2021"
+
+    # portfolio item loop
+    - name : FMS
+      image : images/portfolio/2020-02_fms.jpg
+      image_webp :
+      categories : [ "Promo", "Toscana" ]
+      content : Fondazione Musei Senesi, 2020/02
+      link : "portfolio/2020-02_fms"
+
+    # portfolio item loop
+    - name : Un-conventional Bureau
+      image : images/portfolio/2020-02_unconventionalbureau.jpg
+      image_webp :
+      categories : [ "Promo", "Toscana" ]
+      content : Convention Bureau Terre di Siena, 2020/02
+      link : "portfolio/2020-02_unconventionalbureau"
+
+##    # portfolio item loop
+##    - name : Conservatori Riuniti di Siena al Refugio
+##      image : images/portfolio/2019-11_conservatoririuniti.jpg
+##      image_webp :
+##      categories : [ "Istituzionali" ]
+##      content : Fondazione Conservatori Riuniti, 2019/11
+##      link : "portfolio/2019-11_conservatoririuniti"
+
+    # portfolio item loop
+    - name : Le mostre del SIPA
+      image : images/portfolio/2019-10_lemostredelsipa.jpg
+      image_webp :
+      categories : [ "Promo" ]
+      content : SIPA, 2019/10
+      link : "portfolio/2019-10_lemostredelsipa"
+
+    # portfolio item loop
+    - name : SIPA contest
+      image : images/portfolio/2019-10_sipacontest.jpg
+      image_webp :
+      categories : [ "Promo" ]
+      content : SIPA, 2019/10
+      link : "portfolio/2019-10_sipacontest"
+
+##    # portfolio item loop
+##    - name : Stella Maris
+##      image : images/portfolio/2019-09_stellamaris.jpg
+##      image_webp :
+##      categories : [ "Istituzionali" ]
+##      content : IRCCS Fondazione Stella Maris, 2019/09
+##      link : "portfolio/2019-09_stellamaris"
+
+    # portfolio item loop
+    - name : Sant'Antimo
+      image : images/portfolio/2019-07_santantimo.jpg
+      image_webp :
+      categories : [ "Promo" ]
+      content : Opera Laboratori Fiorentini, 2019/07
+      link : "portfolio/2019-07_santantimo"
+
+    # portfolio item loop
+    - name : Pietro Aldi e la Sala del Risorgimento a Siena
+      image : images/portfolio/2019-04_pietroaldi.jpg
+      image_webp :
+      categories : [ "Documentari", "Toscana" ]
+      content : Banca Tema, 2019/04
+      link : "portfolio/2019-04_pietroaldi"
+
+##    # portfolio item loop
+##    - name : Genesi
+##      image : images/portfolio/2019-03_genesi.jpg
+##      image_webp :
+##      categories : [ "Cortometraggi" ]
+##      content : Marcello Aitiani, 2019/03
+##      link : "portfolio/2019-03_genesi"
+
+    # portfolio item loop
+    - name : Mercato nel Campo
+      image : images/portfolio/2018-11_mercatonelcampo.jpg
+      image_webp :
+      categories : [ "Promo", "Toscana" ]
+      content : Comune di Siena, 2018/11
+      link : "portfolio/2018-11_mercatonelcampo"
+
+    # portfolio item loop
+    - name : Beyond the Lens
+      image : images/portfolio/2018-11_beyondthelens.jpg
+      image_webp :
+      categories : [ "Eventi", "Promo", "Toscana" ]
+      content : SIPA, 2018/11
+      link : "portfolio/2018-11_beyondthelens"
+
+    # portfolio item loop
+    - name : Eyes wide open
+      image : images/portfolio/2018-10_eyeswideopen.jpg
+      image_webp :
+      categories : [ "Eventi", "Promo" ]
+      content : SIPA, 2018/10
+      link : "portfolio/2018-10_eyeswideopen"
+
+    # portfolio item loop
+    - name : Ego Handball
+      image : images/portfolio/2018-09_egohandball.jpg
+      image_webp :
+      categories : [ "Promo" ]
+      content : Ego Handball, 2018/09
+      link : "portfolio/2018-09_egohandball"
+
+    # portfolio item loop
+    - name : C'è ancora la casa
+      image : images/portfolio/2018-08_ceancoralacasa.jpg
+      image_webp :
+      categories : [ "Palio", "Promo", "Toscana" ]
+      content : Contrada della Selva, 2018/08
+      link : "portfolio/2018-08_ceancoralacasa"
+
+##    # portfolio item loop
+##    - name : Rilievi e indagini conoscitive sul pulpito di Nicola Pisano
+##      image : images/portfolio/2018-06_rilievipulpitodinicolapisano.jpg
+##      image_webp :
+##      categories : [ "Istituzionali" ]
+##      content : Dedalo, 2018/06
+##      link : "portfolio/2018-06_rilievipulpitodinicolapisano"
+
+    # portfolio item loop
+    - name : UDOO Bolt for Kickstarter
+      image : images/portfolio/2018-05_udooboltforkickstarter.jpg
+      image_webp :
+      categories : [ "Documentari" ]
+      content : AIDILAB e SECO, 2018/05
+      link : "portfolio/2018-05_udooboltforkickstarter"
+
+    # portfolio item loop
+    - name : Museo d'Inverno
+      image : images/portfolio/2018-05_museodinverno.jpg
+      image_webp :
+      categories : [ "Documentari" ]
+      content : Museo d'Inverno, 2018/05
+      link : "portfolio/2018-05_museodinverno"
+
+    # portfolio item loop
+    - name : Resoconto 2018 del Comune di Siena
+      image : images/portfolio/2018-04_resocontocomunedisiena.jpg
+      image_webp :
+      categories : [ "Promo" ]
+      content : Comune di Siena, 2018/04
+      link : "portfolio/2018-04_resocontocomunedisiena"
+
+    # portfolio item loop
+    - name : Terme in Toscana
+      image : images/portfolio/2018-03_termeintoscana.jpg
+      image_webp :
+      categories : [ "Promo", "Toscana" ]
+      content : Pangea, 2018/03
+      link : "portfolio/2018-03_termeintoscana"
+
+    # portfolio item loop
+    - name : SIPA Contest promo
+      image : images/portfolio/2018-03_sipacontest.jpg
+      image_webp :
+      categories : [ "Eventi", "Promo", "Toscana" ]
+      content : SIPA, 2018/03
+      link : "portfolio/2018-03_sipacontest"
+
+    # portfolio item loop
+    - name : Ricciarelli di Siena IGP
+      image : images/portfolio/2018-02_ricciarellidisienaigp.jpg
+      image_webp :
+      categories : [ "Istituzionali", "Promo" ]
+      content : Fabbrica del Panforte, 2018/02
+      link : "portfolio/2018-02_ricciarellidisienaigp"
+
+    # portfolio item loop
+    - name : Strutture ricettive (showreel 2017)
+      image : images/portfolio/2018-01_strutturericettive.jpg
+      image_webp :
+      categories : [ "Istituzionali", "Promo", "Showreel", "Toscana" ]
+      content : 2018/01
+      link : "portfolio/2018-01_strutturericettive"
+
+    # portfolio item loop
+    - name : La porta dell'Angelo
+      image : images/portfolio/2018-01_laportadellangelo.jpg
+      image_webp :
+      categories : [ "Documentari", "Toscana" ]
+      content : Ugo Riva, 2018/01
+      link : "portfolio/2018-01_laportadellangelo"
+
+    # portfolio item loop
+    - name : Ristorante Nautico
+      image : images/portfolio/2018-01_ristorantenautico.jpg
+      image_webp :
+      categories : [ "Istituzionali", "Promo" ]
+      content : Riva degli Etruschi resort, 2018/01
+      link : "portfolio/2018-01_ristorantenautico"
+
+    # portfolio item loop
+    - name : La Piazzetta
+      image : images/portfolio/2018-01_lapiazzetta.jpg
+      image_webp :
+      categories : [ "Istituzionali", "Promo" ]
+      content : Riva degli Etruschi resort, 2018/01
+      link : "portfolio/2018-01_lapiazzetta"
+
+    # portfolio item loop
+    - name : D6 Group a Monteguidi
+      image : images/portfolio/2017-12_d6groupamonteguidi.jpg
+      image_webp :
+      categories : [ "Eventi", "Istituzionali", "Toscana" ]
+      content : D6 Group, 2017/12
+      link : "portfolio/2017-12_d6groupamonteguidi"
+
+    # portfolio item loop
+    - name : Una cenetta romantica
+      image : images/portfolio/2017-11_unacenettaromantica.jpg
+      image_webp :
+      categories : [ "Cortometraggi" ]
+      content : 2017/11
+      link : "portfolio/2017-11_unacenettaromantica"
+
+    # portfolio item loop
+    - name : Fragile ice
+      image : images/portfolio/2017-10_fragileice.jpg
+      image_webp :
+      categories : [ "Eventi", "Promo" ]
+      content : SIPA, 2017/10
+      link : "portfolio/2017-10_fragileice"
+
+    # portfolio item loop
+    - name : That's a Contrada!
+      image : images/portfolio/2017-09_thatsacontrada.jpg
+      image_webp :
+      categories : [ "Palio", "Promo", "Toscana" ]
+      content : Contrada della Selva, 2017/09
+      link : "portfolio/2017-09_thatsacontrada"
+
+    # portfolio item loop
+    - name : Polo Aldi
+      image : images/portfolio/2017-07_poloaldi.jpg
+      image_webp :
+      categories : [ "Documentari", "Toscana" ]
+      content : Banca Tema, 2017/07
+      link : "portfolio/2017-07_poloaldi"
+
+    # portfolio item loop
+    - name : Circuito di Siena, pista internazionale di karting
+      image : images/portfolio/2017-07_circuitodisiena.jpg
+      image_webp :
+      categories : [ "Promo" ]
+      content : Circuito di Siena, 2017/07
+      link : "portfolio/2017-07_circuitodisiena"
+
+    # portfolio item loop
+    - name : Col d'Orcia
+      image : images/portfolio/2017-06_coldorcia.jpg
+      image_webp :
+      categories : [ "Promo", "Toscana" ]
+      content : Col d'Orcia, 2017/06
+      link : "portfolio/2017-06_coldorcia"
+
+    # portfolio item loop
+    - name : Un cavallo da Le mille e una notte
+      image : images/portfolio/2017-06_uncavallodalemilleeunanotte.jpg
+      image_webp :
+      categories : [ "Documentari", "Palio", "Toscana" ]
+      content : 2017/06
+      link : "portfolio/2017-06_uncavallodalemilleeunanotte"
+
+    # portfolio item loop
+    - name : Conad Sapori e Dintorni, Siena
+      image : images/portfolio/2017-05_conadsaporiedintornisiena.jpg
+      image_webp :
+      categories : [ "Promo" ]
+      content : Conad, 2017/05
+      link : "portfolio/2017-05_conadsaporiedintornisiena"
+
+    # portfolio item loop
+    - name : Siena, il Palio nel cuore
+      image : images/portfolio/2017-04_sienailpalionelcuore.jpg
+      image_webp :
+      categories : [ "Palio", "Promo", "Toscana" ]
+      content : Comune di Siena, 2017/04
+      link : "portfolio/2017-04_sienailpalionelcuore"
+
+    # portfolio item loop
+    - name : Jaguari live show
+      image : images/portfolio/2017-04_jaguariliveshow.jpg
+      image_webp :
+      categories : [ "Eventi", "Musica", "Promo" ]
+      content : Jaguari, 2017/04
+      link : "portfolio/2017-04_jaguariliveshow"
+
+    # portfolio item loop
+    - name : Monticiano
+      image : images/portfolio/2017-04_monticiano.jpg
+      image_webp :
+      categories : [ "Promo", "Toscana" ]
+      content : Comune di Monticiano, 2017/04
+      link : "portfolio/2017-04_monticiano"
+
+    # portfolio item loop
+    - name : SIPA Contest promo
+      image : images/portfolio/2017-03_sipacontest.jpg
+      image_webp :
+      categories : [ "Eventi", "Promo", "Toscana" ]
+      content : SIPA, 2017/03
+      link : "portfolio/2017-03_sipacontest"
+
+    # portfolio item loop
+    - name : Le SIMPLY ricette
+      image : images/portfolio/2017-01_simplyricette.jpg
+      image_webp :
+      categories : [ "Promo" ]
+      content : Simply, 2016-2017
+      link : "portfolio/2017-01_simplyricette"
+
+    # portfolio item loop
+    - name : Siena dall'alto
+      image : images/portfolio/2017-01_sienadallalto.jpg
+      image_webp :
+      categories : [ "Promo", "Toscana" ]
+      content : Comune di Siena, 2017/01
+      link : "portfolio/2017-01_sienadallalto"
+
+    # portfolio item loop
+    - name : Preziosa Penelope cavallo dell'anno
+      image : images/portfolio/2016-12_preziosapenelopecavallodellanno.jpg
+      image_webp :
+      categories : [ "Palio", "Toscana" ]
+      content : 2016/12
+      link : "portfolio/2016-12_preziosapenelopecavallodellanno"
+
+    # portfolio item loop
+    - name : Wow!
+      image : images/portfolio/2016-11_wow.jpg
+      image_webp :
+      categories : [ "Eventi", "Promo" ]
+      content : SIPA, 2016/11
+      link : "portfolio/2016-11_wow"
+
+    # portfolio item loop
+    - name : 50000 shades of WOW
+      image : images/portfolio/2016-11_50000shadesofwow.jpg
+      image_webp :
+      categories : [ "Eventi", "Istituzionali", "Toscana" ]
+      content : SIPA, 2016/11
+      link : "portfolio/2016-11_50000shadesofwow"
+
+    # portfolio item loop
+    - name : Toscana Life Sciences
+      image : images/portfolio/2016-10_toscanalifesciences.jpg
+      image_webp :
+      categories : [ "Istituzionali" ]
+      content : TLS, 2016/10
+      link : "portfolio/2016-10_toscanalifesciences"
+
+    # portfolio item loop
+    - name : Campansi, spazi comuni
+      image : images/portfolio/2016-09_campansispazicomuni.jpg
+      image_webp :
+      categories : [ "Istituzionali", "Promo" ]
+      content : ASP, 2016/09
+      link : "portfolio/2016-09_campansispazicomuni"
+
+    # portfolio item loop
+    - name : Residenza Caccialupi
+      image : images/portfolio/2016-09_residenzacaccialupi.jpg
+      image_webp :
+      categories : [ "Istituzionali", "Promo" ]
+      content : ASP, 2016/09
+      link : "portfolio/2016-09_residenzacaccialupi"
+
+    # portfolio item loop
+    - name : CCN 102' FlyingSport M/Y C 1004
+      image : images/portfolio/2016-09_ccn102flyingsportmyc1004.jpg
+      image_webp :
+      categories : [ "Promo" ]
+      content : CCN, 2016/09
+      link : "portfolio/2016-09_ccn102flyingsportmyc1004"
+
+    # portfolio item loop
+    - name : CCN istituzionale
+      image : images/portfolio/2016-09_ccnistituzionale.jpg
+      image_webp :
+      categories : [ "Istituzionali" ]
+      content : CCN, 2016/09
+      link : "portfolio/2016-09_ccnistituzionale"
+
+    # portfolio item loop
+    - name : Le SIMPLY ricette
+      image : images/portfolio/2016-08_simplyricette.jpg
+      image_webp :
+      categories : [ "Promo" ]
+      content : Simply, 2016-2017
+      link : "portfolio/2016-08_simplyricette"
+
+    # portfolio item loop
+    - name : Di che Contrada sei?
+      image : images/portfolio/2016-06_dichecontradasei.jpg
+      image_webp :
+      categories : [ "Documentari", "Palio", "Toscana" ]
+      content : YASTV, 2016/06
+      link : "portfolio/2016-06_dichecontradasei"
+
+    # portfolio item loop
+    - name : La divina bellezza
+      image : images/portfolio/2016-06_ladivinabellezza.jpg
+      image_webp :
+      categories : [ "Eventi" ]
+      content : Civita, 2016/06
+      link : "portfolio/2016-06_ladivinabellezza"
+
+    # portfolio item loop
+    - name : Siena, a place for all seasons
+      image : images/portfolio/2016-05_sienaaplaceforallseasons.jpg
+      image_webp :
+      categories : [ "Promo", "Toscana" ]
+      content : Comune di Siena, 2016/05
+      link : "portfolio/2016-05_sienaaplaceforallseasons"
+
+    # portfolio item loop
+    - name : SIPA Contest promo
+      image : images/portfolio/2016-05_sipacontest.jpg
+      image_webp :
+      categories : [ "Eventi", "Promo" ]
+      content : SIPA, 2016/05
+      link : "portfolio/2016-05_sipacontest"
+
+    # portfolio item loop
+    - name : Koine 35
+      image : images/portfolio/2016-04_koine35.jpg
+      image_webp :
+      categories : [ "Promo" ]
+      content : IMER Group, 2016/04
+      link : "portfolio/2016-04_koine35"
+
+    # portfolio item loop
+    - name : La gioia del colore sulla tua pelle
+      image : images/portfolio/2016-04_lagioiadelcoloresullatuapelle.jpg
+      image_webp :
+      categories : [ "Promo" ]
+      content : Myra, 2016/04
+      link : "portfolio/2016-04_lagioiadelcoloresullatuapelle"
+
+    # portfolio item loop
+    - name : Wool dehairing
+      image : images/portfolio/2016-04_wooldehairing.jpg
+      image_webp :
+      categories : [ "Promo" ]
+      content : Cormatex, 2016/04
+      link : "portfolio/2016-04_wooldehairing"
+
+    # portfolio item loop
+    - name : Wool deburring
+      image : images/portfolio/2016-04_wooldeburring.jpg
+      image_webp :
+      categories : [ "Promo" ]
+      content : Cormatex, 2016/04
+      link : "portfolio/2016-04_wooldeburring"
+
+    # portfolio item loop
+    - name : Condividiamo le tue idee
+      image : images/portfolio/2015-12_condividiamoletueidee.jpg
+      image_webp :
+      categories : [ "Istituzionali" ]
+      content : IVO, 2015/12
+      link : "portfolio/2015-12_condividiamoletueidee"
+
+    # portfolio item loop
+    - name : La meccanica della vita
+      image : images/portfolio/2015-11_lameccanicadellavita.jpg
+      image_webp :
+      categories : [ "Promo" ]
+      content : Cormatex, 2015/11
+      link : "portfolio/2015-11_lameccanicadellavita"
+
+    # portfolio item loop
+    - name : UDOO X86 for Kickstarter
+      image : images/portfolio/2015-11_udoox86forkickstarter.jpg
+      image_webp :
+      categories : [ "Promo" ]
+      content : AIDILAB e SECO, 2015/11
+      link : "portfolio/2015-11_udoox86forkickstarter"
+
+    # portfolio item loop
+    - name : SIPA Contest
+      image : images/portfolio/2015-10_sipacontest.jpg
+      image_webp :
+      categories : [ "Istituzionali", "Promo" ]
+      content : SIPA, 2015/10
+      link : "portfolio/2015-10_sipacontest"
+
+    # portfolio item loop
+    - name : CCN istituzionale
+      image : images/portfolio/2015-07_ccnistituzionale.jpg
+      image_webp :
+      categories : [ "Istituzionali" ]
+      content : CCN, 2015/04
+      link : "portfolio/2015-07_ccnistituzionale"
+
+    # portfolio item loop
+    - name : UDOO NEO for Kickstarter
+      image : images/portfolio/2015-04_udooneoforkickstarter.jpg
+      image_webp :
+      categories : [ "Promo" ]
+      content : AIDILAB e SECO, 2015/04
+      link : "portfolio/2015-04_udooneoforkickstarter"
+
+    # portfolio item loop
+    - name : Enjoy Siena
+      image : images/portfolio/2014-12_enjoysiena.jpg
+      image_webp :
+      categories : [ "Promo", "Toscana" ]
+      content : Comune di Siena, 2014/12
+      link : "portfolio/2014-12_enjoysiena"
+
+    # portfolio item loop
+    - name : HAPPY IN SIENA
+      image : images/portfolio/2014-03_happyinsiena.jpg
+      image_webp :
+      categories : [ "Promo", "Toscana" ]
+      content : Comune di Siena, 2014/03
+      link : "portfolio/2014-03_happyinsiena"
+
+    # portfolio item loop
+    - name : L'attesa
+      image : images/portfolio/2014-01_lattesa.jpg
+      image_webp :
+      categories : [ "Cortometraggi" ]
+      content : 2014
+      link : "portfolio/2014-01_lattesa"
+
+    # portfolio item loop
+    - name : Palio di Siena (sigla TV)
+      image : images/portfolio/2013-06_paliodisiena.jpg
+      image_webp :
+      categories : [ "Palio", "Promo", "Toscana" ]
+      content : CTPS, 2013/06
+      link : "portfolio/2013-06_paliodisiena"
+
+    # portfolio item loop
+    - name : Tenuta Il Greppo — Biondi Santi
+      image : images/portfolio/2013-05_tenutailgreppo.jpg
+      image_webp :
+      categories : [ "Promo", "Toscana" ]
+      content : SeB, 2013/05
+      link : "portfolio/2013-05_tenutailgreppo"
+
+    # portfolio item loop
+    - name : Il Romanzo del Sangiovese
+      image : images/portfolio/2013-05_ilromanzodelsangiovese.jpg
+      image_webp :
+      categories : [ "Documentari", "Toscana" ]
+      content : SeB, 2013/05
+      link : "portfolio/2013-05_ilromanzodelsangiovese"
+
+    # portfolio item loop
+    - name : Internet festival
+      image : images/portfolio/2012-08_internetfestival.jpg
+      image_webp :
+      categories : [ "Promo" ]
+      content : Fondazione Sistema Toscana, 2012/08
+      link : "portfolio/2012-08_internetfestival"
+
+    # portfolio item loop
+    - name : Carezze sul velluto
+      image : images/portfolio/2012-07_carezzesulvelluto.jpg
+      image_webp :
+      categories : [ "Documentari", "Palio", "Toscana" ]
+      content : Nobile Contrada del Bruco, 2012/07
+      link : "portfolio/2012-07_carezzesulvelluto"
+
+    # portfolio item loop
+    - name : Snow Harmony
+      image : images/portfolio/2012-02_snowharmony.jpg
+      image_webp :
+      categories : [ "Toscana" ]
+      content : 2012/02
+      link : "portfolio/2012-02_snowharmony"
+
+    # portfolio item loop
+    - name : Siena app
+      image : images/portfolio/2012-01_sienaapp.jpg
+      image_webp :
+      categories : [ "Promo" ]
+      content : Appalusa, 2012/01
+      link : "portfolio/2012-01_sienaapp"
+
+    # portfolio item loop
+    - name : Sam Sports
+      image : images/portfolio/2011-12_samsport.jpg
+      image_webp :
+      categories : [ "Promo" ]
+      content : Sam Sports, 2011/12
+      link : "portfolio/2011-12_samsport"
+
+    - name : Tenimenti Angelini
+      image : images/portfolio/2008-11_tenimentiangelini.jpg
+      image_webp :
+      categories : [ "Istituzionali" ]
+      content : Tenimenti Angelini, 2008/11
+      link : "portfolio/2008-11_tenimentiangelini"
