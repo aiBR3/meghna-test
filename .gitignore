@@ -1,5 +1,5 @@
 .DS_Store
 Thumbs.db
 .hugo_build.lock
-resources/_gen/
+resources/
 public/
